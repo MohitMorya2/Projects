@@ -4,6 +4,7 @@
     --color-bg: #28284e;
     --color-text: #fefcff;
     --gradient: linear-gradient(45deg, #01ebaf, #00a9cd, #6380ff);
+    --color-card: #3e3e6c;
 }
 
 body{
@@ -50,7 +51,7 @@ h2, h3{
 .card{
     padding: 20px;
     border-radius: 16px;
-    background: blue;
+    background: var(--color-card);
     box-shadow: 7px 7px 29px #191931,
                 -7px -7px -29px #37376b;
 }
